@@ -21,8 +21,6 @@ public:
     //method to calculate attack
     double attacks (double attackRollScore, double defenseRollScore);
     
-    Blue(double strength, int aquiles):Creature(strength, aquiles)
-    {
-    }
+    Blue(double strength, int aquiles):Creature(strength, aquiles) {}
 };
 #endif
